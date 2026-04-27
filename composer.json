@@ -1,27 +1,26 @@
 {
-    "name": "derralf/elemental-mover",
-    "description": "A simple experimental extension to move Elements to other Areas/Pages (may not work properly with mutliple Element Areas per Page).",
-    "type": "silverstripe-vendormodule",
-    "keywords": [
-        "silverstripe",
-        "elemental",
-        "content blocks"
-    ],
-    "license": "BSD-3-Clause",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require": {
-        "dnadesign/silverstripe-elemental": "^4 || ^5"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.x-dev"
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            "Derralf\\ElementalMover\\": "src/"
-        }
+  "name": "derralf/elemental-mover",
+  "description": "A simple experimental extension to move Elements to other Areas/Pages (may not work properly with mutliple Element Areas per Page).",
+  "type": "silverstripe-vendormodule",
+  "keywords": [
+    "silverstripe",
+    "elemental",
+    "content blocks"
+  ],
+  "license": "BSD-3-Clause",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "dnadesign/silverstripe-elemental": "^6.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.x-dev"
     }
+  },
+  "autoload": {
+    "psr-4": {
+      "Derralf\\ElementalMover\\": "src/"
+    }
+  }
 }
-
